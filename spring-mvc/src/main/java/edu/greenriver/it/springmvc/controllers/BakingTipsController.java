@@ -40,7 +40,7 @@ public class BakingTipsController
 
     @RequestMapping("/{tipId}")
     @ResponseBody
-    public String tipById(@PathVariable int id) {
+    public String tipById(@PathVariable int tipId) {
         return "";
     }
 }
